@@ -59,12 +59,24 @@ def get_special_numbers():
 # Task 4.a
 def my_for_loop():
     """ Add your docstring """
-    pass
+    i = input("Give me a word from 2 to 5 letters long: ")
+    if len(i) < 2 or len(i) > 5:
+        return
+    else:
+        for let in i:
+            if let.isvowel:
+                print(f"letter {let} is a vowel")
+            else:
+                print(f"letter {let} is a consonant")
 
 # Task 4.b
 def my_while_loop():
     """ Add your docstring """
     pass
+    if let == "a" or let == "A" or let == "e" or let == "E" or let == "i" or let == "I" or let == "o" or let == "O" or let == "u" or let == "U":
+        print(f"letter {let} is a vowel")
+    else:
+        print(f"letter {let} is a consonant")
 
 # ---------------------------------------
 # Do not modify anything below this line
