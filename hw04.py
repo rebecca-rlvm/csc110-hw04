@@ -38,12 +38,23 @@ def check_greater():
         elif x == y:
             print("Try again")
 
-
 # Task 3
 def get_special_numbers():
     """ Add your docstring """
-    pass
-
+    n = 1
+    for n in range(1,40):
+        if n%2 == 0:
+            n=n+1
+            continue
+        if n%3 != 0:
+            n=n+1
+            continue
+        if n%5 == 0:
+            n=n+1
+            continue
+        else:
+            print(n)
+            n=n+1
 
 # Task 4.a
 def my_for_loop():
