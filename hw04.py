@@ -25,8 +25,18 @@ def check_text():
 # Task 2
 def check_greater():
     """ Add your docstring """
-    pass
-
+    z = 1
+    while z == 1:
+        x = input("Enter a variable: ")
+        y = input("Enter another variable: ")
+        if x > y:
+            print("First is Greater")
+            break
+        elif x < y:
+            print("Second is Greater")
+            break
+        elif x == y:
+            print("Try again")
 
 
 # Task 3
