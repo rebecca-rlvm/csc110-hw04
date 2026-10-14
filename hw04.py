@@ -1,7 +1,7 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
-#       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#        Name: Rebecca Morrison
+#       Peers: N/A
+#  References: N/A
 # ------------------------------------------------------
 import sys
 
@@ -10,9 +10,17 @@ secret_word = "food"
 # Task 1
 def check_text():
     """ Add your docstring """
-    pass
-
-
+    x = 1
+    while x == 1:
+        i = input("Give me a sentence: ")
+        if secret_word in i:
+            print("You used the secret word!")
+            break
+        elif "dog" in i or "Dog" in i:
+            print("You used the word \"dog\" or the word \"Dog\"!")
+            break
+        else:
+            print("Try again")
 
 # Task 2
 def check_greater():
