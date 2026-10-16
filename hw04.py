@@ -77,7 +77,7 @@ def my_for_loop():
 def my_while_loop():
     """ Add your docstring """
     x = 1
-    while x ==1:
+    while x == 1:
         i = input("Choose a, b, or c: ")
         if i == "a":
             continue
@@ -85,10 +85,9 @@ def my_while_loop():
             print("Goodbye")
             break
         if i == "c":
-            break
+            exit()
         else:
             print("try again")
-
 # ---------------------------------------
 # Do not modify anything below this line
 # ---------------------------------------
