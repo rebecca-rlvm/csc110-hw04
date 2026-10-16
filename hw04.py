@@ -69,14 +69,25 @@ def my_for_loop():
     else:
         for let in i:
             if let == "a" or let == "A" or let == "e" or let == "E" or let == "i" or let == "I" or let == "o" or let == "O" or let == "u" or let == "U":
-                print(f"letter {let} is a vowel")
+                print(f"{let} is a vowel")
             else:
-                print(f"letter {let} is a consonant")
+                print(f"{let} is a consonant")
 
 # Task 4.b
 def my_while_loop():
     """ Add your docstring """
-    pass
+    x = 1
+    while x ==1:
+        i = input("Choose a, b, or c: ")
+        if i == "a":
+            continue
+        if i == "b":
+            print("Goodbye")
+            break
+        if i == "c":
+            break
+        else:
+            print("try again")
 
 # ---------------------------------------
 # Do not modify anything below this line
